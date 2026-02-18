@@ -10,9 +10,19 @@
 
  ##Rédiger un commit
 
- ````
+ ```
  Titre du commit
 
  Description de notre commit avec des informations sur l'evolution su projet
 
- ````
+ ```
+
+
+ ##Envoyer un commit sur le dépôt distant 
+
+
+ ```bash
+ git add .
+ git commit -m "Titre du commit"
+ git push origin main
+ ```
