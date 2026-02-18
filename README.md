@@ -26,3 +26,9 @@
  git commit -m "Titre du commit"
  git push origin main
  ```
+
+ ## Création d'une branch
+
+ ```bash
+ git checkout -b nom_branche
+ ```
